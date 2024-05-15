@@ -93,6 +93,20 @@ const checkDraw=(count)=>
     {
         if(count===9)
             {
+                for(let pattern of winningPattern)
+                {
+                    let pos1Val=boxes[pattern[0]].innerText;
+                    let pos2Val=boxes[pattern[1]].innerText;
+                    let pos3Val=boxes[pattern[2]].innerText;
+                    if(pos1Val!==""&&pos2Val!==""&&pos3Val!=="")
+                        {
+                            if(pos1Val===pos2Val&&pos2Val===pos3Val)
+                                {
+                                    showWinner(pos1Val);
+                                    return;
+                                }
+                        }
+                }
                 msg.innerText=`Oops! It's a Draw.`;
                 winnerMsg.classList.remove("hide");
                 title.classList.add("reducesize");
