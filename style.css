@@ -1,0 +1,98 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color: #445128;
+    text-align:center;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:5rem;
+    text-shadow: 0 0 3px white, 0 0 5px white;
+}
+h2{
+    font-size:3rem;
+    text-shadow: 0 0 3px white, 0 0 5px white;
+}
+.start{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:70vh;
+    width:70vh;
+}
+.choose-button{
+    display:flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+}
+.start-button{
+    height:25vh;
+    width:25vh;
+    background-color: wheat;
+    font-size:2rem;
+    border-radius: 1rem;
+}
+.reducesize{
+    font-size:2rem;
+}
+.winnerTitle
+{
+    color:white;
+    font-size:5rem;
+    text-shadow: 0 0 3px black, 0 0 5px white;
+}
+#game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    background-color: rgb(234, 229, 229);
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem black(0,0,0,0.5);
+    font-size:8vmin;
+    color:black;
+    text-shadow: 0 0 3px red, 0 0 3px blue;
+}
+.gamehide{
+    display:none;
+}
+.hide
+{
+    display: none;
+}
+#reset-btn{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: bisque;
+    border-radius: 1rem;
+}
+.resetgame{
+    font-size:2rem;
+    color:black;
+    text-shadow: none;
+}
+.starthide
+{
+    display:none;
+}
